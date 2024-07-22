@@ -5,7 +5,7 @@ pragma solidity ^0.8.7;
 contract EventManager{
 
     struct Event {
-        address oraganizer;
+        address _oraganizer;
         string EventName;
         uint price;
         uint EventDate;
